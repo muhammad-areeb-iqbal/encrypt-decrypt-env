@@ -1,0 +1,48 @@
+{
+  "name": "encyrpt-decrypt-env",
+  "version": "1.0.8",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "encrypt-env": "./bin/encrypt.js",
+    "decrypt-env": "./bin/decrypt.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "env-encryption",
+    "env-decryption",
+    "secure-env",
+    "share-env",
+    "encryption",
+    "env",
+    "encrypt",
+    "task-env",
+    "credential",
+    ".env",
+    "config",
+    "secure",
+    "secret",
+    "decrypt",
+    "dotenv",
+    "encrypted",
+    "encryption",
+    "enviornment",
+    "keys",
+    "decrypt",
+    "secrets",
+    "argv",
+    "security",
+    "configuration",
+    "cipher",
+    ".env",
+    "vault",
+    "safe"
+  ],
+  "author": "Muhammad Areeb",
+  "license": "ISC",
+  "dependencies": {
+    "yargs": "^17.7.2"
+  }
+}
