@@ -1,7 +1,7 @@
 # Encryption/Decryption env files and shared them securly
 https://www.npmjs.com/package/encyrpt-decrypt-env
 
-https://github.com/muhammad-areeb-iqbal/encrypt-decrypt-env
+
 
 ### Introduction
 
@@ -16,7 +16,8 @@ npm i encyrpt-decrypt-env
 ## Usage:
 
 ### Encryption .env file
-Run command in the root project where your .env file exists
+**1.** Run command in the root project where your .env file exists
+
 ```
 npx encrypt-env
 ```
@@ -33,7 +34,7 @@ Note:- Please save the "key" and "iv". It will require to decrypt the .env file.
 
 
 
-If you want to use custom key and iv for encryption,
+**2.** If you want to use **custom key** and **custom iv** for encryption,
 ```
 npx encrypt-env --key="yourstring" --iv="yourstring"
 ```
@@ -45,7 +46,7 @@ iv:  yourstring
 .env.encrypted is created successfully.
 ```
 
-If you want to encrypt any specific env file like ".env.example"
+**3.** If you want to encrypt any **specific env file like ".env.example"**
 ```
 npx encrypt-env --key="yourstring" --iv="yourstring" --env=".env.example"
 ```
@@ -57,12 +58,12 @@ iv:  yourstring
 ```
 
 ### Decrypt .env encrypted files
-It will decrypt the .env.decrypted file and create the .env file
+**1.** It will decrypt the .env.decrypted file and create the .env file
 ```
 npx decrypt-env --key="yourstring" --iv="yourstring"
 ```
 
-Decrypt any specific file like .env.example.decrypted
+**2.** Decrypt any **specific file like .env.example.decrypted**
 ```
 npx decrypt-env --key="yourstring" --iv="yourstring" --env=".env.example"
 ```
